@@ -2,7 +2,7 @@
 ## Requirements
 
 For development, you will only need Node.js and mongodb;
-###MongoDb
+### MongoDb
 Just go on official website of mongodb
 ### Node
 - #### Node installation on Windows
@@ -35,5 +35,5 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ### once you are  done with above steps
 ### install all the dependecies by running following command
-     run 
+
      $ npm install 

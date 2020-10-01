@@ -1,7 +1,7 @@
 # location-task
 ## Requirements
 
-For development, you will only need Node.js and mongodb;
+For test, you will only need Node.js and mongodb;
 ### MongoDb
 Just go on official website of mongodb
 ### Node
@@ -37,3 +37,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ### install all the dependecies by running following command
 
      $ npm install 
+     
+  ### To run the project
+   $ nodemon start
+   or 
+   $ npm start

@@ -37,7 +37,7 @@ driverRouter.route('/')
     newDriver.accessToken=accessToken;
     newDriver.save();
     res.json({
-        "Message":"user registered successfuly"
+        "Message":"user registered successfully"
     })
    
 })

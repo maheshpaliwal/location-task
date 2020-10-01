@@ -24,7 +24,7 @@ driverRouter.route('/')
     res.statusCode = 200;
     const longitude=req.body.longitude;
     const latitude=req.body.latitude;
-    const minTime=new Date().getTime()-60*1000;// query only those users which were active in last 60 seconds
+    const minTime=new Date().getTime()-120*1000;// query only those users which were active in last 60 seconds
     driverInfo.find({
         currentLocation: {
          $near: {
